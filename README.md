@@ -17,7 +17,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-# Apache Helix [![Build Status](https://travis-ci.com/sudogithero/helix.svg?branch=master)](https://travis-ci.com/github/sudogithero/helix)
+# Apache Helix [![Build Status](https://travis-ci.org/sudogithero/helix.svg?branch=master)](https://travis-ci.org/github/sudogithero/helix)
 ---------------
 Helix is part of the Apache Software Foundation. 
 
