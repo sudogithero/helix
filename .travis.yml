@@ -1,0 +1,17 @@
+language: java
+sudo: false
+
+matrix:
+  include:
+    - os: linux
+      jdk: openjdk8
+
+cache:
+  directories:
+  - "$HOME/.m2"
+
+script: mvn clean install -Dmaven.test.skip.exec=true
+
+branches:
+  only:
+  - master
