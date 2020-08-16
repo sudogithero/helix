@@ -24,14 +24,14 @@ jobs:
       run: cd metadata-store-directory-common; mvn test
     - name: Test zookeeper-api
       run: cd zookeeper-api; mvn test
-      if: ${{ success() }} || ${{ failure() }}
+      if: ${{ success() || failure() }}
     - name: Test helix-common
       run: cd helix-common; mvn test
-      if: ${{ success() }} || ${{ failure() }}
     - name: Test helix-lock
       run: cd helix-lock; mvn test
     - name: Test helix-rest
       run: cd helix-rest; mvn test
-      if: ${{ success() }} || ${{ failure() }}
+      if: ${{ success() || failure() }}
     - name: Test helix-core
       run: cd helix-core; mvn test
+      if: ${{ success() || failure() }}
